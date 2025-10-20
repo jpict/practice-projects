@@ -1,0 +1,5 @@
+# Ignore everything in data/input and data/output except gitkeeps
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep

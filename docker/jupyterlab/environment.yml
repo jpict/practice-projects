@@ -1,0 +1,16 @@
+name: test
+channels:
+  - conda-forge
+dependencies:
+  - branca
+  - folium
+  - geopandas
+  - jupyterlab
+  - leafmap
+  - localtileserver
+  - matplotlib
+  - rasterio
+  - rioxarray
+  - scikit-learn
+  - seaborn
+  - xarray
