@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import argparse
 import logging
 import xarray as xr
@@ -41,7 +42,7 @@ def main():
     parser = argparse.ArgumentParser(description="Classify VIIRS data using KMeans clustering.")
     parser.add_argument('viirs_file', type=str, help='Path to the VIIRS data file')
     parser.add_argument('--n_clusters', type=int, default=5, help='Number of clusters for KMeans')
-    parser.add_argument("-v", action="count", default=1, help="Increase verbosity level (use -v, -vv, -vvv)")
+    parser.add_argument("-v", action="count", default=0, help="Increase verbosity level (use -v, -vv, -vvv)")
     args = parser.parse_args()
 
     # Setup logging based on verbosity level

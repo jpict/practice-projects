@@ -4,5 +4,6 @@ data/output/*
 !data/input/.gitkeep
 !data/output/.gitkeep
 
-# Ignore notebook checkpoints
+# Ignore notebook checkpoints and vscode settings   
 notebooks/.ipynb_checkpoints
+.vscode/
