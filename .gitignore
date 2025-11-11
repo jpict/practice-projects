@@ -3,3 +3,6 @@ data/input/*
 data/output/*
 !data/input/.gitkeep
 !data/output/.gitkeep
+
+# Ignore notebook checkpoints
+notebooks/.ipynb_checkpoints
